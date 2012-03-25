@@ -37,8 +37,3 @@ function setupColors() {
     $('h1').text('Now you can sort the colors');
     $('#clickMe').hide();
 }
-
-$(document).ready(function() {
-    //makeColorGradient(.3,.3,.3,0,2,4);
-    
-});
