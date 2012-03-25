@@ -1,18 +1,12 @@
- function decimalToHex(d) {
-  var hex = Number(d).toString(16);
-  hex = "00".substr(0, 2 - hex.length) + hex; 
-  return hex;
+function decimalToHex(d) {
+    var hex = Number(d).toString(16);
+    hex = "00".substr(0, 2 - hex.length) + hex; 
+    return hex;
 }
 
-
- function makeColorGradient(frequency1, frequency2, frequency3,
-                             phase1, phase2, phase3,
-                             center, width, len)
-  {
-    if (len == undefined)      
-        len = 50;
-    if (center == undefined)   center = 128;
-    if (width == undefined)    width = 127;
+function makeColorSorter(frequency1, frequency2, frequency3,
+                         phase1, phase2, phase3,
+                         center, width, len) {
 
     var colors = "";
     for (var i = 0; i < len; ++i)
@@ -35,12 +29,13 @@
   }
  
 function setupColors() {
-    makeColorGradient(.05,.05,.05,0,2,4, 128,127, 121);
+    makeColorSorter(.05,.05,.05,0,2,4, 128,127, 121);
     
-    $( "#colors" ).sortable({
-        //placeholder: "ui-state-highlight"
-    });
-    $( "#colors" ).disableSelection();
+    $('#colors').sortable();
+    $('#colors').disableSelection();
+    
+    $('h1').text('Now you can sort the colors');
+    $('#clickMe').hide();
 }
 
 $(document).ready(function() {
