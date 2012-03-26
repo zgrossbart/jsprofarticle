@@ -33,6 +33,6 @@ function makeSortable() {
 }
  
 $(document).ready(function() {
-    makeColorSorter(.05,.05,.05,0,2,4, 128,127, 121);
+    makeColorSorter(.05, .05, .05, 0, 2, 4, 128, 127, 121);
     makeSortable();
 });

@@ -17,8 +17,7 @@ function makeColorSorter(frequency1, frequency2, frequency3,
     $('#colors').append(colors);
 }
  
-function testColorSorter() {
+$(document).ready(function() {
     makeColorSorter(.05, .05, .05, 0, 2, 4, 128, 127, 121);
-    
     $('#colors').sortable();
-}
+});
