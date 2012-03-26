@@ -10,5 +10,6 @@ The article shows five versions of an application that sorts color circles.
  * The [third color sorter](http://zgrossbart.github.com/jsprofarticle/index3.htm) optimizes the conversion from RGB to hex colors.
  * The [fourth color sorter](http://zgrossbart.github.com/jsprofarticle/index4.htm) combines all DOM changes into a single change.
  * The [fifth color sorter](http://zgrossbart.github.com/jsprofarticle/index5.htm) removes the hex colors to complete the optimizations.
+ * The [sixth color sorter](http://zgrossbart.github.com/jsprofarticle/index6.htm) automatically loads when the page runs with the new faster function.
 
 
