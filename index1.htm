@@ -28,14 +28,31 @@
                 opacity: 0.9;
             }
         </style> 
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26336682-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
     </head> 
     <body> 
         <a href="http://github.com/zgrossbart/jsprofarticle" id="forkme"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
         <h1 style="margin: 25px auto; width: 500px; text-align: center;">Drag and drop the colors to mix them up</h1>
+        
         <div id="colors"></div>
         
         <p style="margin: 0 auto; width: 450px;">
             This color sorter lets you drag and drop to mix the colors up.  It works well, but it takes almost 1.5 seconds to load.  We can make that a lot faster.
+        </p>
+        
+        <p style="margin: 0 auto; width: 450px; margin-top: 1.5em">
+            Check out <a href="index2.htm">version 2</a>
         </p>
         
     </body> 
