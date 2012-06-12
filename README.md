@@ -1,9 +1,9 @@
 JavaScript Profiling Article
 ==================================================
 
-This project contains the samples for an article about JavaScript profiling.
+This project contains the samples for the article [JavaScript Profiling With The Chrome Developer Tools](http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools).
 
-The article shows five versions of an application that sorts color circles.  
+The article shows six versions of an application that sorts color circles.  
 
  * The [first color sorter](http://zgrossbart.github.com/jsprofarticle/index1.htm) works, but it's a little slow.
  * The [second color sorter](http://zgrossbart.github.com/jsprofarticle/index2.htm) isolates the color sorter so it's easier to profile.
